@@ -19,7 +19,9 @@ const newUser = new User({
     fullName: fullName,
     email: email,
     password: hashedPassword
+    
 })
+console.log(password);
 
   } catch (error) {}
 };
