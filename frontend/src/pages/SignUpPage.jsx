@@ -77,7 +77,7 @@ const SignUpPage = () => {
                 <input
                   type="text"
                   className={`input input-bordered w-full pl-10`}
-                  placeholder="Yogesh Sharma"
+                  placeholder="John Doe"
                   value={formData.fullName}
                   onChange={(e) =>
                     setFormData({ ...formData, fullName: e.target.value })
@@ -155,7 +155,7 @@ const SignUpPage = () => {
 
           <div className="text-center">
             <p className="text-base-content/60">
-              Already have an account?
+              Already have an account?{" "}
               <Link to="/login" className="link link-primary">
                 Sign in
               </Link>
