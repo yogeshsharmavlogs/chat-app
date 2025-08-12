@@ -164,7 +164,6 @@ const SignUpPage = () => {
         </div>
       </div>
 
-      {/* right side */}
 
       <AuthImagePattern
         title="Join our community"
