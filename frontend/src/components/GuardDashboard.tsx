@@ -15,7 +15,7 @@ export default function GuardDashboard() {
       setHasPermission(status === "granted");
     })();
   }, []);
-
+ 
   const handleBarCodeScanned = ({ type, data }: { type: string; data: string }) => {
     setScanned(true);
     setScannerVisible(false); 
