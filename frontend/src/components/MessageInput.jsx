@@ -4,7 +4,6 @@ import { Image, Send, X } from "lucide-react";
 import toast from "react-hot-toast";
 
 
-// MessageInput Component.
 const MessageInput = () => {
   const [text, setText] = useState("");
   const [imagePreview, setImagePreview] = useState(null);
